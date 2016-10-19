@@ -33,7 +33,7 @@ class cat {
 
 	// meow function will cause a cat object to report its name and age
 	public function meow(){
-		echo "I am a cat. My name is " . $this->getCatName() . ". I am " . $this->getCatAge() . " years old!";
+		echo "I am a cat. My name is " . $this->getCatName() . ". I am " . $this->getCatAge() . " years old!<br>";
 	}
 }
 // end of cat class definition
