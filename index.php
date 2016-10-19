@@ -49,6 +49,8 @@ $myCat->setCatAge(7);
 $myCat->meow();
 
 // can you make another cat?
-// can you create a dog class and make a couple dogs?
+// can you create a dog class and make a couple dog objects?
+// think about the things a dog should have. a name, an age, and maybe a breed?
+// try to make the dog bark
 
 ?>
