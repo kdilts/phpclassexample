@@ -23,7 +23,7 @@ class cat {
 	}
 
 	// mutator functions that allow you to change a cat object's
-	public function setCatName($newCatName){
+	public function setCatName(string $newCatName){
 		// ensure that string input to this function is safe
 		$newCatName = trim($newCatName);
 		$newCatName = filter_var($newCatName, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
@@ -32,10 +32,7 @@ class cat {
 		$this->catName = $newCatName;
 	}
 
-	public function setCatAge($newCatAge){
-		// ensure that the integer input to this function is safe
-		$newCatAge = filter_var($newCatAge, FILTER_SANITIZE_NUMBER_INT);
-
+	public function setCatAge(int $newCatAge) {
 		// store the integer as the cat object's new age
 		$this->catAge = $newCatAge;
 	}
