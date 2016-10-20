@@ -2,7 +2,7 @@
 
 //////////////////////////////////////////////////
 // class definition for a cat
-class cat {
+class Cat {
 	// private variables that describe a cat
 	private $catName;
 	private $catAge;
@@ -46,11 +46,11 @@ class cat {
 //////////////////////////////////////////////////
 
 // lets make a cat object from our class blueprint
-$myCat = new cat("Fred", 6);
+$myCat = new cat("Arlo", 4);
 // lets see what happens when our cat meows
 $myCat->meow();
 // now lets pretend a year has gone by and set our cat's age to be correct again
-$myCat->setCatAge(7);
+$myCat->setCatAge(5);
 // lets see what happens when he meows again
 $myCat->meow();
 
@@ -58,5 +58,3 @@ $myCat->meow();
 // can you create a dog class and make a couple dog objects?
 // think about the things a dog should have. a name, an age, and maybe a breed?
 // try to make the dog bark
-
-?>
